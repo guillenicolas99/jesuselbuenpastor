@@ -1,22 +1,25 @@
+---
+import '../styles/global.css'
+import mijbpLogo from '../assets/img/logo/logo.webp';
+import Navbar from '../components/Navbar.astro'
+import Footer from '../components/Footer.astro'
+---
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href={mijbpLogo.src} />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Ministerio Internacional Jesús el Buen Pastor</title>
 	</head>
 	<body>
-		<slot />
+		<Navbar />
+
+		<main>
+			<slot />
+		</main>
+
+		<Footer />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

@@ -1,0 +1,22 @@
+---
+import logo from '../assets/img/logo/logo.webp'
+import Instagram from '../components/icons/Instagram.astro'
+import Facebook from '../components/icons/Facebook.astro'
+import Youtube from '../components/icons/Youtube.astro'
+---
+
+<footer class="py-5 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700">
+    <div class="container">
+        <div class="flex justify-center text-center flex-col items-center space-y-5 text-white">
+            <img src={logo.src} alt="Logo Ministerio Internacional Jesús el Buen Pastor" width="54" height="54">
+            <h3 class="font-bold text-2xl">Llamados a traer el poder sobrenatural de Dios a esta generación</h3>
+            <div class="flex space-x-3 flex-wrap">
+                <Instagram />
+                <Facebook />
+                <Youtube />
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
