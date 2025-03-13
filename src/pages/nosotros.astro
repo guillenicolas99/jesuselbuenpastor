@@ -2,12 +2,35 @@
 import Layout from "../layouts/Layout.astro";
 import Servicios from '@/components/sections/Servicios.astro';
 import nuestrosPadres from '@/assets/img/index/nuestros-padres.jpg'
+import bannerNostros from '@/assets/img/banners/salvacion-jbp.jpg'
+
 ---
 
 <Layout>
-    <section class="py-30">
+
+    <img class="h-[500px] w-full object-cover" src={bannerNostros.src} alt="Casa llena Ministerio Internacional Jesús el Buen pastor" loading="lazy">
+
+    <section class="pt-30">
         <div class="px-4 mx-auto max-w-screen-xl">
-            <img transition:name="img-nuestros-padres" src={nuestrosPadres.src} alt="Apóstol Augusto y profeta Milagros Estrada" class="rounded mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <img src={nuestrosPadres.src} alt="Apóstol Augusto y profeta Milagros Estrada" class="rounded w-full  object-cover">
+                <div class="about-content">
+                    <h2 class="text-5xl font-bold text-gray-700 mb-5">Nuestros <span class="text-cyan-700">Padres</span></h2>
+                    <h3 class="text-gray-600 text-2xl mb-6">Ministerio Internacional Jesús el Buen Pastor</h3>
+
+                    <p class="mb-6 text-gray-700">El Apóstol Augusto y Profeta Milagros Estrada son los padres espirituales del nuevo vino, escogidos, separados y comisionados por el Señor para establecer su Reino a nivel local e internacional con todas las manifestaciones del poder sobrenatural de Dios. Son fundadores del Ministerio Internacional Jesús El Buen Pastor cuya sede central está en Managua, Nicaragua.</p>
+
+                    <p class="mb-6 text-gray-700">El Apóstol y la Profeta Estrada han recibido de Dios una unción de maestros, con una pasión muy grande de enseñar verdades bíblicas y levantar líderes, para alcanzar las naciones y extender el Reino de Dios, con el propósito divino de que se de la restauración del diseño original de una iglesia llena del Poder de Dios, con la sobrenaturalidad como un estilo de vida de cada creyente, con sanidades, milagros y maravillas como algo natural que se da a diario en la vida de los hijos de Dios.</p>
+
+                    <p class="mb-6 text-gray-700">El Apóstol Augusto Estrada es un hombre con un fuerte llamado ministerial, con una unción apostólica y profética y un ministerio de sanidad y milagros poderoso.</p>
+
+                    <p class="mb-6 text-gray-700">La Profeta Milagros Estrada ungida por Dios con un don de sanidad interior, liberación, intercesión profética y guerra espiritual, llamada a declarar y establecer las victorias del pueblo de Dios.</p>
+
+                    <p class="mb-6 text-gray-700">Juntos, desde diciembre del 2006, han emprendido constantes retos y desafíos para llevar a cabo la voluntad de Dios y la visión que Dios les ha dado: levantar un ministerio que proclame y muestre su gloria en todo su esplendor y en sus diferentes formas; un ministerio apostólico fundamentado en amor, restauración, sanidad interior y paz.</p>
+
+                    <p class="mb-6 text-gray-700"><strong>¡A él sea la Gloria, la Honra y la Alabanza!</strong></p>
+                </div>
+            </div>
         </div>
     </section>
 
