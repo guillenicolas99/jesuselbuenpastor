@@ -6,3 +6,12 @@
 .banner-sec{
     background-image: url(../assets/img/banner.jpg);
 }
+
+.follow-sec{
+    background-image: url(../assets/img/index/foto_2.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.6);
+}

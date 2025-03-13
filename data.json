@@ -1,0 +1,341 @@
+{
+    "basics": {
+        "name": "Ministerio Internacional Jesús el Buen Pastor",
+        "label": "Desarrollador Jr de FrontEnd con más de 3 años de experiencia",
+        "image": "./profile-photo.webp",
+        "email": "guillenicolas99@gmail.com",
+        "phone": "+505 58870853",
+        "url": "https://midu.dev",
+        "summary": "+3 años de experiencia como Diseñador Web. Hasta la fecha soy Diseñador Web dentro de una agencia de marketing. Vivo en Managua, Nicaragua. He trabajado en diferentes entornos: desde proporcionar código eficiente para mejor performance dentro de los sitios webs estáticos, hasta liderar y dar asistencia en el desarrollo de aplicaciones dentro de las mismas.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Managua",
+            "countryCode": "Nic",
+            "region": "Nicaragua"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "guillenicolas99",
+                "url": "https://www.linkedin.com/in/guillenicolas99/"
+            },
+            {
+                "network": "X",
+                "username": "guillenicolas99",
+                "url": "https://twitter.com/guillenicolas99"
+            },
+            {
+                "network": "GitHub",
+                "username": "guillenicolas99",
+                "url": "https://github.com/guillenicolas99"
+            }
+        ]
+    },
+    "servicios": [
+        {
+            "date": "Martes",
+            "hour": "06:00 PM",
+            "name": "Casa de oración"
+        },
+        {
+            "date": "Martes",
+            "hour": "07:00 PM",
+            "name": "Escuela de avivamiento 2.0"
+        },
+        {
+            "date": "Miércoles",
+            "hour": "06:00 PM",
+            "name": "Servicio (Noches de Avivamiento)"
+        },
+        {
+            "date": "Jueves",
+            "hour": "06:00 PM",
+            "name": "Instituo de Liderazgo"
+        },
+        {
+            "date": "Sábado",
+            "hour": "06:30 AM",
+            "name": "Intercesión Profética"
+        },
+        {
+            "date": "Domingo",
+            "hour": "07:00 AM",
+            "name": "Servicio (Servicio de empoderamiento)"
+        },
+        {
+            "date": "Domingo",
+            "hour": "09:30 AM",
+            "name": "Servicio (Servicio para las familias)"
+        }
+    ],
+    "Padres": [
+        {
+            "id": 1,
+            "slug": "apostol-augusto-estrada",
+            "title": "Apóstol",
+            "name": "Augusto Estrada",
+            "description": "El apóstol Augusto Estrada."
+        },
+        {
+            "id": 2,
+            "slug": "profeta-milagros-estrada",
+            "title": "Profeta",
+            "name": "Milagros  Estrada",
+            "description": "La profeta Milagros Estrada."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universitat Oberta de Catalunya",
+            "url": "https://www.uoc.edu/portal/es/index.html",
+            "area": "Ingeniero de Software",
+            "studyType": "Bachelor",
+            "startDate": "2003-01-01",
+            "endDate": "2009-01-01",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "Fullstack"
+            ]
+        },
+        {
+            "name": "Tailwind",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "CSS Framework",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "TypeScript",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "JavaScript Superset"
+            ]
+        },
+        {
+            "name": "Node",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "JavaScript",
+                "Servidor"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": "Avanzado",
+            "keywords": [
+                "Bases de Datos",
+                "SQL",
+                "Almacenamiento de Datos",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": "Avanzado",
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente"
+            ]
+        },
+        {
+            "name": "GitHub",
+            "level": "Avanzado",
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente",
+                "Git"
+            ]
+        },
+        {
+            "name": "Next.js",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "React Framework",
+                "SSR",
+                "Static Generation"
+            ]
+        },
+        {
+            "name": "React",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        },
+        {
+            "name": "WordPress",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        },
+        {
+            "name": "WooCommerce",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Harry Potter App",
+            "isActive": true,
+            "description": "Desde los famosos libros, hasta las películas más vistas en el mundo. Descubre un mundo de magia y sueños.",
+            "highlights": [
+                "Descubre el mundo de la magia",
+                "Conoce más acerca de tus personajes favoritos"
+            ],
+            "url": "https://harry-poter-app-reactjs.netlify.app/"
+        },
+        {
+            "name": "Tic Tac Toe",
+            "isActive": true,
+            "description": "Juego conocido como Tres en Raya para entretenerte mientras pasas el rato con un amigo",
+            "highlights": [
+                "La risas y rabias no faltarán",
+                "React JS"
+            ],
+            "url": "https://tic-tac-toe-react-devsftwr.netlify.app/"
+        },
+        {
+            "name": "Rick and Morty API",
+            "isActive": true,
+            "description": "Lista de personajes de la serie animada conocida como Rick and Morty",
+            "highlights": [
+                "En desarrollo",
+                "React JS"
+            ],
+            "url": "https://rick-morty-react-app-api.netlify.app/"
+        },
+        {
+            "name": "Tabla de Usuarios",
+            "isActive": true,
+            "description": "Consumiendo una API de usuarios al azar para mostrarlos en una tabla capaz de filtrar y ordenar",
+            "highlights": [
+                "React JS"
+            ],
+            "url": "https://random-users-table-react.netlify.app/"
+        },
+        {
+            "name": "Giphy APP",
+            "isActive": true,
+            "description": "Busca el Gif que te venga a la mente",
+            "highlights": [
+                "En desarrollo",
+                "React JS"
+            ],
+            "url": "https://giphy-app-react-js.netlify.app"
+        },
+        {
+            "name": "Reloj",
+            "isActive": true,
+            "description": "Reloj tiempo real",
+            "highlights": [
+                "Vanilla Javascript"
+            ],
+            "url": "https://clock-app-vanilla-js.netlify.app/"
+        }
+    ]
+}

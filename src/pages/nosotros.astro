@@ -1,7 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Servicios from "@/components/sections/servicios.astro";
+import nuestrosPadres from '@/assets/img/index/nuestros-padres.jpg'
 ---
 
 <Layout>
-    Pagina de About
+    <section class="py-30">
+        <div class="px-4 mx-auto max-w-screen-xl">
+            <img transition:name="img-nuestros-padres" src={nuestrosPadres.src} alt="Apóstol Augusto y profeta Milagros Estrada" class="rounded mx-auto">
+        </div>
+    </section>
+
+    <Servicios />
 </Layout>
